@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 Run the app.
   ```
-python server.py
+main.py
   ```
 
  View your app at: http://localhost:8000
