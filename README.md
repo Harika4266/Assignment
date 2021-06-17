@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 Run the app.
   ```
-main.py
+Python main.py
   ```
 
  View your app at: http://localhost:8000
@@ -63,7 +63,7 @@ Next, we'll add a NoSQL database to this application and set up the application 
 We're now going to update your local code to point to this database. We'll create a json file that will store the credentials for the services the application will use. This file will get used ONLY when the application is running locally. When running in AZURE Cloud, the credentials will be read from the VCAP_SERVICES environment variable.
 Run your application locally.
   ```
-main.py
+Python main.py
   ```
 
   View your app at: http://localhost:8000. Any names you enter into the app will now get added to the database.
