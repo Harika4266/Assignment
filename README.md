@@ -7,7 +7,7 @@ To get started, we'll take you through a sample Python Flask app, help you set u
 ## Prerequisites
 
 You'll need the following:
-* [AZURE CLOUD ACCOUNT]
+* [AZURE CLOUD ACCOUNT](https://portal.azure.com/#home)
 * [Git](https://git-scm.com/downloads)
 * [Python](https://www.python.org/downloads/)
 
@@ -15,7 +15,7 @@ You'll need the following:
 
 Now you're ready to start working with the app. Clone the repo and change to the directory where the sample app is located.
   ```
-git clone https://github.com/IBM-Cloud/get-started-python
+git clone https://github.com/AZURE-Cloud/get-started-python
 cd get-started-python
   ```
 
