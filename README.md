@@ -26,11 +26,12 @@ Python app.py
 
  View your app at: http://localhost:8000
 
-## 3. Create HTML files under Templates folder required for the Assignment
+## 2. Create HTML files under Templates folder required for the Assignment
+1. index.html
+2. search.html
 
 
-
-## 4. Add a database
+## 3. Add a database
 
 Next, we'll add a Ms SQL database to this application and set up the application so that it can run locally and on AZURE Cloud.
 
@@ -38,7 +39,7 @@ Next, we'll add a Ms SQL database to this application and set up the application
 2. Import the Database from AZURE VISUAL STUDIO APP installed in windows, login through server by giving username and password.
 3. Now the database is imported.
 
-## 5. Use the database
+## 4. Use the database
 
 We're now going to update your local code to point to this database. We'll create a json file that will store the credentials for the services the application will use. This file will get used ONLY when the application is running locally. When running in AZURE Cloud, the credentials will be read from the VCAP_SERVICES environment variable.
 Run your application locally.
@@ -48,7 +49,7 @@ Python app.py
 
   View your app at: http://localhost:8000. Any names you enter into the app will now get added to the database.
 
-## 6. Prepare the app for deployment
+## 5. Prepare the app for deployment
 
 1. We're going to add Azure extensions in Visual Studio Code 
 2. Select the file to be deployed.
