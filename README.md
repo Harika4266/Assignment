@@ -56,7 +56,7 @@ Python app.py
 3. Select the web app into which the app has to be deployed.
 4. After the deployment, we can browse the web app created.
 
-[ASSIGNMENT3](https://code.visualstudio.com/download)
+[ASSIGNMENT3](https://assignmenteq03.azurewebsites.net/)
 
   ```
 
