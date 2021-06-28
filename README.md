@@ -21,14 +21,14 @@ pip install -r requirements.txt
 
 Run the app.
   ```
-Python app.py
+Python application.py
   ```
 
  View your app at: http://localhost:8000
 
 ## 2. Create HTML files under Templates folder required for the Assignment
-1. index.html
-2. search.html
+1. main.html
+2. chart.html
 
 
 ## 3. Add a database
@@ -44,7 +44,7 @@ Next, we'll add a Ms SQL database to this application and set up the application
 We're now going to update your local code to point to this database. We'll create a json file that will store the credentials for the services the application will use. This file will get used ONLY when the application is running locally. When running in AZURE Cloud, the credentials will be read from the VCAP_SERVICES environment variable.
 Run your application locally.
   ```
-Python app.py
+Python application.py
   ```
 
   View your app at: http://localhost:8000. Any names you enter into the app will now get added to the database.
@@ -56,7 +56,7 @@ Python app.py
 3. Select the web app into which the app has to be deployed.
 4. After the deployment, we can browse the web app created.
 
-[ASSIGNMENT3](https://assignmenteq03.azurewebsites.net/)
+[ASSIGNMENT 4](https://assignment00004.azurewebsites.net/)
 
   ```
 
