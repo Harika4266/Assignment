@@ -21,33 +21,33 @@ pip install -r requirements.txt
 
 Run the app.
   ```
-Python application.py
+Python app.py
   ```
 
  View your app at: http://localhost:8000
 
 ## 2. Create HTML files under Templates folder required for the Assignment
-1. main.html
-2. chart.html
+1. display.html
+2. main.html
 
 
-## 3. Add a database
+## 3. Create an Azure storage
 
-Next, we'll add a Ms SQL database to this application and set up the application so that it can run locally and on AZURE Cloud.
+Next, we'll add all files to this application and set up the application so that it can run locally and on AZURE Cloud.
 
-1. Log in to AZURE Cloud in your Browser. Browse to the `ADD Resource`. Select your application by clicking on Create in SQL DataBase.
-2. Import the Database from AZURE VISUAL STUDIO APP installed in windows, login through server by giving username and password.
-3. Now the database is imported.
+1. Log in to AZURE Cloud in your Browser. Browse to the `Storage`.
+2. Import the files to  VISUAL STUDIO APP installed in windows.
+3
 
-## 4. Use the database
+## 4. Use the files
 
 We're now going to update your local code to point to this database. We'll create a json file that will store the credentials for the services the application will use. This file will get used ONLY when the application is running locally. When running in AZURE Cloud, the credentials will be read from the VCAP_SERVICES environment variable.
 Run your application locally.
   ```
-Python application.py
+Python app.py
   ```
 
-  View your app at: http://localhost:8000. Any names you enter into the app will now get added to the database.
+  View your app at: http://localhost:8000. Any changes you enter into the app will now get added to the server.
 
 ## 5. Prepare the app for deployment
 
@@ -56,7 +56,7 @@ Python application.py
 3. Select the web app into which the app has to be deployed.
 4. After the deployment, we can browse the web app created.
 
-[ASSIGNMENT 4](https://assignment00004.azurewebsites.net/)
+[ASSIGNMENT 5](https://harikagovadaassignment5.azurewebsites.net/)
 
   ```
 
